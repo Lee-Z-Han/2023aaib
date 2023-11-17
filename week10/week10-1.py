@@ -11,5 +11,6 @@ for k in range(N):
 for i in range(N):
 	#print( a[i] )
 	print( '', a[i] , end = '')
+	#print( f' {a[i]}', end = '')
 	if i%10 == 9 and i != 99:
 		print()
